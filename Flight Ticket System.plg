@@ -6,6 +6,35 @@
 --------------------Configuration: Flight Ticket System - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPDFAD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Flight Ticket System.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ºº½ò\Desktop\Flight-Ticket-System\passenger.cpp"
+"C:\Users\ºº½ò\Desktop\Flight-Ticket-System\passengerdatabase.cpp"
+"C:\Users\ºº½ò\Desktop\Flight-Ticket-System\plane.cpp"
+"C:\Users\ºº½ò\Desktop\Flight-Ticket-System\planedatabase.cpp"
+"C:\Users\ºº½ò\Desktop\Flight-Ticket-System\system.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPDFAD.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPDFAE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Flight Ticket System.pdb" /debug /machine:I386 /out:"Debug/Flight Ticket System.exe" /pdbtype:sept 
+".\Debug\passenger.obj"
+".\Debug\passengerdatabase.obj"
+".\Debug\plane.obj"
+".\Debug\planedatabase.obj"
+".\Debug\system.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPDFAE.tmp"
+<h3>Output Window</h3>
+Compiling...
+passenger.cpp
+passengerdatabase.cpp
+plane.cpp
+planedatabase.cpp
+c:\users\ºº½ò\desktop\flight-ticket-system\plane.cpp(104) : warning C4715: 'Plane::getseat' : not all control paths return a value
+system.cpp
+Linking...
 
 
 
